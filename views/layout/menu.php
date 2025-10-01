@@ -18,6 +18,7 @@
             background: #fff;
             padding: 12px 20px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+            align-items: center;
         }
 
         /* Links do menu */
@@ -296,4 +297,5 @@
                 <div class="alert <?=$mensagem['tipo']?>"><?=$mensagem["mensagem"]?></div>
             <?php endforeach ?>
         </div>
+
     <?php endif ?>
